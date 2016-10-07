@@ -1,0 +1,280 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D4D3217D-A690-4E0C-9358-0F58EEE9A453}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "SystemBrowser"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = "SystemBrowser"
+                StartupObject = "SystemBrowser.LifecycleCoordinator"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Binder.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Builder.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserSettings.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coordinators\CoordinatorCruise.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coordinators\CoordinatorLifecycle.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coordinators\CoordinatorSearch.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coordinators\CoordinatorShutdown.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coordinators\CoordinatorStartup.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\FormAbout.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\FormAbout.resx"
+                    DependentUpon = "FormAbout.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\FormMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\FormMain.resx"
+                    DependentUpon = "FormMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\FormMenuToolBar.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\FormMenuToolBar.resx"
+                    DependentUpon = "FormMenuToolBar.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\FormSplash.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\FormSplash.resx"
+                    DependentUpon = "FormSplash.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\File.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Folder.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\FolderOpened.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Folders.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Go.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\HardDrive.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\History.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Magnifier 16x16.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Magnifier 32x32.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Search.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Workers\StatusBar.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Workers\StatusBar.resx"
+                    DependentUpon = "StatusBar.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Workers\Content\ContentFileList.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Workers\Content\ContentFileList.resx"
+                    DependentUpon = "ContentFileList.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Workers\Content\ContentSearchResults.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Workers\Content\ContentSearchResults.resx"
+                    DependentUpon = "ContentSearchResults.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Workers\Navigators\NavigatorFolders.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Workers\Navigators\NavigatorFolders.resx"
+                    DependentUpon = "NavigatorFolders.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Workers\Navigators\NavigatorSearch.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Workers\Navigators\NavigatorSearch.resx"
+                    DependentUpon = "NavigatorSearch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

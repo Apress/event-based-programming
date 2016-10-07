@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <File>TestFixture NavigatorSearch\TestFixture NavigatorSearch.csproj</File>
+                <File>TestFixture NavigatorFolders\TestFixture NavigatorFolders.csproj</File>
+                <File>TestFixture ContentFolder\TestFixture ContentFileList.csproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>TestFixture NavigatorSearch\TestFixture NavigatorSearch.csproj</FILE>
+                <GUIDPROJECTID>{A8B3A6E2-8D03-4A35-AC46-07E4D18AF293}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>TestFixture NavigatorFolders\TestFixture NavigatorFolders.csproj</FILE>
+                <GUIDPROJECTID>{D8DDB776-0873-4FF2-86AE-450FE7229024}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>TestFixture ContentFolder\TestFixture ContentFileList.csproj</FILE>
+                <GUIDPROJECTID>{F17ED623-7E8D-4444-927D-29CE0BDFF399}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

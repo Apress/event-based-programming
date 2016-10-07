@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <File>Order Entry\Order Entry.vbproj</File>
+                <File>Order Entry Test Fixture\Order Entry Test Fixture.vbproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>Order Entry\Order Entry.vbproj</FILE>
+                <GUIDPROJECTID>{1E4F8841-111C-4791-BFFD-7B89905ECCEF}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Order Entry Test Fixture\Order Entry Test Fixture.vbproj</FILE>
+                <GUIDPROJECTID>{F6EFD39C-AB77-4926-AADC-3BCCB67D3BC9}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

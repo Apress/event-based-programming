@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <File>Order Processor\Order Processor.csproj</File>
+                <File>Order Processor Host Program\Order Processor Host Program.csproj</File>
+                <File>Order Processor Test Fixture\Order Processor Test Fixture.csproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>Order Processor\Order Processor.csproj</FILE>
+                <GUIDPROJECTID>{CDD2BDE9-1312-4B02-AF08-29D7E9BBC56B}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Order Processor Host Program\Order Processor Host Program.csproj</FILE>
+                <GUIDPROJECTID>{AE8184C2-FD37-49D3-A9E7-F09C7D995952}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Order Processor Test Fixture\Order Processor Test Fixture.csproj</FILE>
+                <GUIDPROJECTID>{9341560D-F47D-48AD-A839-3222B559C2E4}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

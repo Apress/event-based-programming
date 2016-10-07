@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <File>Order Processor System\Order Processor System.etp</File>
+                <File>Invoicing\Invoicing.vbproj</File>
+                <File>Parts Scheduling\Parts Scheduling.vbproj</File>
+                <File>Vehicle Assembly\Vehicle Assembly.vbproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>Order Processor System\Order Processor System.etp</FILE>
+                <GUIDPROJECTID>{3BE11C3A-1992-4E40-AC86-6C42303109E3}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Invoicing\Invoicing.vbproj</FILE>
+                <GUIDPROJECTID>{A16E91EE-2685-4678-B40B-059A6F3BCE08}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Parts Scheduling\Parts Scheduling.vbproj</FILE>
+                <GUIDPROJECTID>{6939F8C4-AA6E-43C1-AF8A-F2B1DFF9430B}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Vehicle Assembly\Vehicle Assembly.vbproj</FILE>
+                <GUIDPROJECTID>{5F550C6C-E771-42B0-A63E-3B4B3E7390F0}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

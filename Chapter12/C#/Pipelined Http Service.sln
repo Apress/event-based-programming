@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpService", "HttpService\HttpService.csproj", "{5A4E88D2-93DB-4A5F-841F-B188F58915FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostEmulator", "HostEmulator\HostEmulator.csproj", "{6C1CB60F-0D50-4FAF-ABB7-035DA01261EC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{7F167EC3-48EA-4FE2-AD87-EB75F8EBF3EA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5A4E88D2-93DB-4A5F-841F-B188F58915FB}.Debug.ActiveCfg = Debug|.NET
+		{5A4E88D2-93DB-4A5F-841F-B188F58915FB}.Debug.Build.0 = Debug|.NET
+		{5A4E88D2-93DB-4A5F-841F-B188F58915FB}.Release.ActiveCfg = Release|.NET
+		{5A4E88D2-93DB-4A5F-841F-B188F58915FB}.Release.Build.0 = Release|.NET
+		{6C1CB60F-0D50-4FAF-ABB7-035DA01261EC}.Debug.ActiveCfg = Debug|.NET
+		{6C1CB60F-0D50-4FAF-ABB7-035DA01261EC}.Debug.Build.0 = Debug|.NET
+		{6C1CB60F-0D50-4FAF-ABB7-035DA01261EC}.Release.ActiveCfg = Release|.NET
+		{6C1CB60F-0D50-4FAF-ABB7-035DA01261EC}.Release.Build.0 = Release|.NET
+		{7F167EC3-48EA-4FE2-AD87-EB75F8EBF3EA}.Debug.ActiveCfg = Debug|.NET
+		{7F167EC3-48EA-4FE2-AD87-EB75F8EBF3EA}.Debug.Build.0 = Debug|.NET
+		{7F167EC3-48EA-4FE2-AD87-EB75F8EBF3EA}.Release.ActiveCfg = Release|.NET
+		{7F167EC3-48EA-4FE2-AD87-EB75F8EBF3EA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

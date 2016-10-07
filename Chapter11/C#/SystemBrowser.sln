@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FE3BBBB6-72D5-11D2-9ACE-00C04F79A2A4}") = "Test Fixtures", "Test Fixtures\Test Fixtures.etp", "{DD798786-95E2-4D0B-8404-5D087F825045}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBrowser", "SystemBrowser\SystemBrowser.csproj", "{D7140DBE-2161-49AA-BC13-40AAEC75DCBA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D7140DBE-2161-49AA-BC13-40AAEC75DCBA}.Debug.ActiveCfg = Debug|.NET
+		{D7140DBE-2161-49AA-BC13-40AAEC75DCBA}.Debug.Build.0 = Debug|.NET
+		{D7140DBE-2161-49AA-BC13-40AAEC75DCBA}.Release.ActiveCfg = Release|.NET
+		{D7140DBE-2161-49AA-BC13-40AAEC75DCBA}.Release.Build.0 = Release|.NET
+		{D8DDB776-0873-4FF2-86AE-450FE7229024}.Debug.ActiveCfg = Debug|.NET
+		{D8DDB776-0873-4FF2-86AE-450FE7229024}.Debug.Build.0 = Debug|.NET
+		{D8DDB776-0873-4FF2-86AE-450FE7229024}.Release.ActiveCfg = Release|.NET
+		{D8DDB776-0873-4FF2-86AE-450FE7229024}.Release.Build.0 = Release|.NET
+		{F17ED623-7E8D-4444-927D-29CE0BDFF399}.Debug.ActiveCfg = Debug|.NET
+		{F17ED623-7E8D-4444-927D-29CE0BDFF399}.Debug.Build.0 = Debug|.NET
+		{F17ED623-7E8D-4444-927D-29CE0BDFF399}.Release.ActiveCfg = Release|.NET
+		{F17ED623-7E8D-4444-927D-29CE0BDFF399}.Release.Build.0 = Release|.NET
+		{A8B3A6E2-8D03-4A35-AC46-07E4D18AF293}.Debug.ActiveCfg = Debug|.NET
+		{A8B3A6E2-8D03-4A35-AC46-07E4D18AF293}.Debug.Build.0 = Debug|.NET
+		{A8B3A6E2-8D03-4A35-AC46-07E4D18AF293}.Release.ActiveCfg = Release|.NET
+		{A8B3A6E2-8D03-4A35-AC46-07E4D18AF293}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
